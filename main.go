@@ -17,13 +17,13 @@ func isNumeric(s string) bool {
 }
 
 func main() {
+	enableVirtualTerminalProcessing()
 	PrintLogoString()
 
 
 	if isTermux() {
 		setCertFiles()
 	}
-	enableVirtualTerminalProcessing()
 
 	// Define and parse command-line flags
 	phone := flag.String("phone", "", "Target phone number")
