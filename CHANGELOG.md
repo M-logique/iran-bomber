@@ -1,3 +1,9 @@
+## [1.5.2](https://github.com/M-logique/iran-bomber/compare/v1.5.1...v1.5.2) (2025-10-02)
+
+### 🐛 Bug Fixes
+
+* fix colors in windows by adding enableVirtualTerminalProcessing command ([3371446](https://github.com/M-logique/iran-bomber/commit/3371446a0b87fae91af0be0c9623d0e7f296b882))
+
 ## [1.5.1](https://github.com/M-logique/iran-bomber/compare/v1.5.0...v1.5.1) (2025-09-17)
 
 ### 🔥 Hot Fixes
