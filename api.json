@@ -3240,10 +3240,9 @@
         "phone": "0{{num}}"
       },
       "Headers": {
-    "Content-Type": "application/json",
-    "Accept": "application/json"
-}
-
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      }
     }
   }
 ]
