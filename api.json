@@ -3230,5 +3230,20 @@
         "user-agent": "{{user_agent}}"
       }
     }
+  },
+  {
+    "Type": "sms",
+    "Request": {
+      "URL": "https://digimaze.org/api/sms/v1/otp/request",
+      "Method": "POST",
+      "Payload": {
+        "phone": "0{{num}}"
+      },
+      "Headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+}
+
+    }
   }
 ]
